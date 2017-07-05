@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Медкраш \ Вакансия Мейнтейнера</title>
+        <link href="hacker.css" rel="stylesheet">
+        <style>
+        .tall-row {
+        margin-top: 40px;
+        }
+        .modal {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        z-index: 1;
+        display: block;
+        }
+        .fontsize {
+        font-size:25px;
+        }
+        .fontsize-m {
+        font-size:16px;
+        }
+        </style>
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <body>
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="https://madcrush.ru">ООО Медкраш</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CLICK ME!!!<span class="caret"></span> </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#home">Главная</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Вакансия</li>
+                                    <li><a href="#vacansy">Описание вакансии</a></li>
+                                    <li><a href="#todo">Обязанности</a></li>
+                                    <li><a href="#need">Необходимые навыки</a></li>
+                                    <li><a href="#more">Дополнительно</a></li>
+                                    <li><a href="#aboutus">О Компании</a></li>
+                                    <li><a href="#algoritm">Алгоритм взаимодействия</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#contacts">Контакты</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <!-- Jumbotron -->
+                <div class="jumbotron">
+                    <a name="home"></a>
+                    <h1>Linux разработчик</h1>
+                    <p>Необходим разработчик под Linux \ <b>Мейнтейнер</b>  для участия в проекте по разработке дистрибутива нацеленного на анонимность и безопасность. Концепция дистрибутива - это безопасность через разделение виртуализацией и анонимизация всего трафика с помощью TOR.</p>
+                    <p>Коротко о технологиях:</p>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="list-group">
+                                <a class="list-group-item">Bash-scripting</a>
+                                <a class="list-group-item">Debian Stretch</a>
+                                <a class="list-group-item">KDE5 / Plasma 5</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="list-group">
+                                <a class="list-group-item">TOR</a>
+                                <a class="list-group-item">PyQT5</a>
+                                <a class="list-group-item">Python</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <a class="btn btn-lg btn-primary" href="#contacts" role="button">Наши контакты »</a>
+                        <a class="btn btn-primary" href="#contacts" id="stars"></a>
+                    </p>
+                </div>
+                <div class="bs-component">
+                    <ul class="breadcrumb">
+                        <li class="active">[Maintainer@madcrush ~]$</li>
+                        <li><a href="#vacansy">Описание вакансии</a></li>
+                        <li><a href="#todo">Обязанности</a></li>
+                        <li><a href="#need">Необходимые навыки</a></li>
+                        <li><a href="#more">Дополнительно</a></li>
+                        <li><a href="#aboutus">О Компании</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <!--         <div class="text-center">
+                    <img src="logo.png" class="img-responsive center-block">
+                </div> -->
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                    <a name="vacansy"></a>
+                        <h1>Описание вакансии</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h3 class="panel-title fontsize">Уровень зарплаты</h3></div>
+                            <div class="panel-body fontsize">от <b>50 000</b> рублей</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h3 class="panel-title fontsize">Город</h3></div>
+                            <div class="panel-body fontsize">Нижний Новгород</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading fontsize"><h3 class="panel-title fontsize">Опыт работы</h3></div>
+                            <div class="panel-body fontsize">от 1 года</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="alert alert-dismissible alert-warning">
+                            <button type="button" class="close fontsize">!</button>
+                            <h4 class="fontsize">Внимание!</h4>
+                            <p class="fontsize-m">Эта вакансия предусматривает возможность удаленной работы. У нас вы можете работать из любой точки планеты!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                        <h3>О проекте</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm fontsize-m">
+                            Мы приглашаем мейнтейнера в нашу команду для участия в проекте по разработке анонимного и безопасного user-friendly дистрибутива Linux, который предназначается для неопытных конечных пользователей.</br>
+                            Дистрибутив предоставляет из себя систему в которой запущены 2 виртуальные машины, одна из которых является шлюзом, занимается всеми сетевыми соединениями и перенаправляет весь трафик через TOR.</br>
+                            Вторая же - является рабочей станцией с оформлением KDE с Plasma 5 в качестве окружения рабочего стола, и имеет на борту пакеты необходимые для комфортной работы и анонимного серфинга.</br>
+                            Так же имеются уникальные службы и инструменты которые являются неотъемлемой частью инфраструктуры.</br>
+                            Основные цели, которые преследует дистрибутив - анонимность, безопасность, удобство.</br>
+                            Мы хотим разрушить миф о том, что безопасность и анонимность не может быть доступна обычному пользователю и ищем единомышленника.</br>
+                            На данный момент уже проделано огромное количество работы по развитию дистрибутива.</br>
+                            Разработку мы ведем на GitHub. На данным момент не используем других CI, и работаем в настраиваемой на dev выпуске среде сборки и тестирования</br>
+                            На текущий момент мы нуждаемся в специалисте который смог бы исправлять ошибки связанные с обновлениями в пакетах, сопровождать пакеты и разрабатывать новые возможности дитсрибутива. А так же участовать в принятии решений по развитию дистрибутива.</br>
+                            Мы ищем именно разработчика, а не просто кодера. Человека - который бы смог самостоятельно принмать решения в своей компетенции, работать в условиях отсутствия четкого ТЗ и всегда добиваться поставленной цели и уметь грамотно применять технологии, находить выход из запутанных ситуаций.
+                        </div>
+                    </div>
+                </div>
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                    <a name="todo"></a>
+                        <h3>Обязанности</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table class="table table-striped table-hover ">
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>Cборка deb-пакетов (сборка, пересборка, написание спека с нуля, правка спека, портирование пакетов из других дистрибутивов)</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>1</td>
+                                    <td>Cборка пакетов для различных вариантов исполнения ОС, включая архитектуру Power, устранение ошибок и конфликтов;</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Написание/портирование патчей (исправление ошибок или решение проблем совместимости)</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>3</td>
+                                    <td>Разработка приложений и плазмоидов на Qt5\pyQt5 для работы в KDE5 + Plasma5</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Разработка и настройка SystemD Демонов</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>5</td>
+                                    <td>Исследование возможностей и путей реализации</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Работа с TOR (конфигурирование сети)</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>7</td>
+                                    <td>Знание TCP/IP и сетевой архитектуры Linux</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                    <a name="need"></a>
+                        <h3>Необходимые навыки</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table class="table table-striped table-hover ">
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>Умение администрировать ОС Linux</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>1</td>
+                                    <td>Опыт разработки на Qt5 / pyQt5</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Опыт программирования на языках Bash и Python</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>3</td>
+                                    <td>Опыт работы с системой контроля версий Git (Github)</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Знание средств сборки ПО (make, cmake, autotools)</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>5</td>
+                                    <td>Опыт тестирования и отладки приложений</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Знание приципов работы KDE5 + Plasma5</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>7</td>
+                                    <td>Умение конфигурировать сеть iptables\ip_route\openvpn\proxy</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Знание технологий анонимизации (tor,vpn,p2p,proxy) на уровне администрирования</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>9</td>
+                                    <td>Английский язык на уровне чтения технической документации</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                    <a name="more"></a>
+                        <h3>Плюсом будет</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table class="table table-striped table-hover ">
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>Понимание прицнипов работы технологий виртуализации xen, virtualbox</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>1</td>
+                                    <td>Желательно опыт работы с QML</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Опыт разработки на C\C++, хотя бы на уровне чтения кода</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>3</td>
+                                    <td>Понимание работы TOR (читали и поняли документацию)</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Знание технологий и интсрументов для безопасности Linux (AppArmor, PolKit, Selinux, rkhunter, ...)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                </br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a class="btn btn-default">Bash</a>
+                        <a class="btn btn-primary">Debian</a>
+                        <a class="btn btn-success">QT5</a>
+                        <a class="btn btn-info">PyQT5</a>
+                        <a class="btn btn-warning">Python</a>
+                        <a class="btn btn-danger">Strace</a>
+                        <a class="btn btn-default">TOR</a>
+                        <a class="btn btn-primary">IpTables</a>
+                        <a class="btn btn-success">Plasma 5</a>
+                        <a class="btn btn-info">netstat</a>
+                        <a class="btn btn-warning">tcpdump</a>
+                    </div>
+                    <div class="col-sm-6">
+                    </div>
+                </div>
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                    <a name="aboutus"></a>
+                        <h1>О компании</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="fontsize-m">
+                «MADCRUSH» - это команда высококлассных сертифицированных IT специалистов.
+                Мы проектируем и воплощаем решения в наиболее интересных и перспективных областях computer sience ориентированные на различные сегменты рынка.
+                Наша компания занимается ИТ в России более 5 лет, и за это время мы воплотили в жизнь очень много на первый взгляд невероятных идей, и всегда следовали принципу что невозможное - возможно.
+                Мы очень ценим в людях креативность, критичное мышление и целеустремленность.
+                Наша дружная команда состоит из молодых и креативных специалистов. Мы работаем с большим количеством проектов которые затрагивают очень интересные области, такие как ИБ, дата-майнинг, нейросети и криптовалюты.
+                Каждый день для нас - новое приключение, и мы с радостью разделим его с тобой.
+                </div>
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                    <a name="algoritm"></a>
+                        <h1>Алгоритм взаимодействия</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <svg height="598.712890625" version="1.1" width="520.51953125" xmlns="http://www.w3.org/2000/svg" viewBox="-22 0 520.51953125 598.712890625" class="img-responsive tocenter">
+                            <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Algoritm</desc>
+                            <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <marker id="raphael-marker-endblock33-obj6039" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#raphael-marker-block" transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use>
+                            </marker>
+                            <marker id="raphael-marker-endblock33-obj6040" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#raphael-marker-block" transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use>
+                            </marker>
+                            <marker id="raphael-marker-endblock33-obj6041" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#raphael-marker-block" transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use>
+                            </marker>
+                            <marker id="raphael-marker-endblock33-obj6043" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#raphael-marker-block" transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use>
+                            </marker>
+                            <marker id="raphael-marker-endblock33-obj6045" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#raphael-marker-block" transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use>
+                            </marker>
+                            <marker id="raphael-marker-endblock33-obj6046" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#raphael-marker-block" transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use>
+                            </marker>
+                            <marker id="raphael-marker-endblock33-obj6047" markerHeight="3" markerWidth="3" orient="auto" refX="1.5" refY="1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#raphael-marker-block" transform="rotate(180 1.5 1.5) scale(0.6,0.6)" stroke-width="1.6667" fill="black" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use>
+                            </marker>
+                            </defs>
+                            <rect x="0" y="0" width="58.671875" height="36" rx="20" ry="20" fill="#ffff99" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="3" class="flowchart" id="st" transform="matrix(1,0,0,1,86.9492,43.1426)"></rect>
+                            <text x="10" y="18" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" id="stt" class="flowchartt" transform="matrix(1,0,0,1,86.9492,43.1426)" stroke-width="1">
+                            <tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Связь</tspan>
+                            </text>
+                            <rect x="0" y="0" width="116.390625" height="36" rx="0" ry="0" fill="#ffff99" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="3" class="flowchart" id="op1" transform="matrix(1,0,0,1,58.0898,172.2852)"></rect>
+                            <text x="10" y="18" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" id="op1t" class="flowchartt" transform="matrix(1,0,0,1,58.0898,172.2852)" stroke-width="1">
+                            <tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Общение с HR</tspan>
+                            </text>
+                            <path fill="#ffff99" stroke="#000000" d="M55.142578125,27.5712890625L0,55.142578125L110.28515625,110.28515625L220.5703125,55.142578125L110.28515625,0L0,55.142578125" stroke-width="3" id="cond" class="flowchart" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="matrix(1,0,0,1,6,264.2852)"></path>
+                            <text x="60.142578125" y="55.142578125" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" id="condt" class="flowchartt" transform="matrix(1,0,0,1,6,264.2852)" stroke-width="1">
+                            <tspan dy="5.001953125" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Тестовое задание</tspan>
+                            </text>
+                            <rect x="0" y="0" width="205.328125" height="36" rx="0" ry="0" fill="#ffff00" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="3" class="flowchart" id="op2" transform="matrix(1,0,0,1,290.1914,301.4277)"></rect>
+                            <text x="10" y="18" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#ff0000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px; font-weight: bold;" id="op2t" class="flowchartt" font-weight="bold" transform="matrix(1,0,0,1,290.1914,301.4277)" stroke-width="1">
+                            <tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Общение с разработчиком</tspan>
+                            </text>
+                            <path fill="#ffff99" stroke="#000000" d="M10,18L0,36L165.03125,36L185.03125,0L20,0L10,18" stroke-width="3" id="io" class="flowchart" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="matrix(1,0,0,1,300.3398,430.5703)"></path>
+                            <text x="30" y="18" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" id="iot" class="flowchartt" transform="matrix(1,0,0,1,300.3398,430.5703)" stroke-width="1">
+                            <tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Обсуждаем  детали</tspan>
+                            </text>
+                            <rect x="0" y="0" width="148.015625" height="36" rx="20" ry="20" fill="#ffff99" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="3" class="flowchart" id="e" transform="matrix(1,0,0,1,318.8477,559.7129)"></rect>
+                            <text x="10" y="18" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" id="et" class="flowchartt" transform="matrix(1,0,0,1,318.8477,559.7129)" stroke-width="1">
+                            <tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Начинаем работать</tspan>
+                            </text>
+                            <rect x="0" y="0" width="187.09375" height="36" rx="0" ry="0" fill="#444444" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="3" class="flowchart" id="sub1" transform="matrix(1,0,0,1,22.7383,467.7129)"></rect>
+                            <rect x="10" y="0" width="167.09375" height="36" rx="0" ry="0" fill="#444444" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-width="3" id="sub1i" transform="matrix(1,0,0,1,22.7383,467.7129)"></rect>
+                            <text x="20" y="18" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" id="sub1t" class="flowchartt" transform="matrix(1,0,0,1,22.7383,467.7129)" stroke-width="1">
+                            <tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Читаем документацию</tspan>
+                            </text>
+                            <path fill="none" stroke="#000000" d="M116.28515625,79.142578125C116.28515625,79.142578125,116.28515625,149.18711578845978,116.28515625,167.79269610531628" stroke-width="3" marker-end="url(#raphael-marker-endblock33-obj6039)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                            <path fill="none" stroke="#000000" d="M116.28515625,208.28515625C116.28515625,208.28515625,116.28515625,246.48592710494995,116.28515625,259.78531656763516" stroke-width="3" marker-end="url(#raphael-marker-endblock33-obj6040)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                            <path fill="none" stroke="#000000" d="M226.5703125,319.427734375C226.5703125,319.427734375,271.1841391241178,319.427734375,285.6923464149686,319.427734375" stroke-width="3" marker-end="url(#raphael-marker-endblock33-obj6041)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                            <text x="231.5703125" y="309.427734375" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#ffff00" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" stroke-width="1">
+                            <tspan dy="5.005859375" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Да</tspan>
+                            </text>
+                            <path fill="none" stroke="#000000" d="M116.28515625,374.5703125C116.28515625,374.5703125,116.28515625,444.6148501634598,116.28515625,463.2204304803163" stroke-width="3" marker-end="url(#raphael-marker-endblock33-obj6043)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                            <text x="121.28515625" y="384.5703125" text-anchor="start" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#ffff00" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: Arial; font-size: 14px;" stroke-width="1">
+                            <tspan dy="5.0078125" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Нет</tspan>
+                            </text>
+                            <path fill="none" stroke="#000000" d="M392.85546875,337.427734375C392.85546875,337.427734375,392.85546875,407.4722720384598,392.85546875,426.0778523553163" stroke-width="3" marker-end="url(#raphael-marker-endblock33-obj6045)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                            <path fill="none" stroke="#000000" d="M392.85546875,466.5703125C392.85546875,466.5703125,392.85546875,536.6148501634598,392.85546875,555.2204304803163" stroke-width="3" marker-end="url(#raphael-marker-endblock33-obj6046)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                            <path fill="none" stroke="#000000" d="M22.73828125,485.712890625C22.73828125,485.712890625,-19,485.712890625,-19,485.712890625C-19,485.712890625,-19,239.28515625,-19,239.28515625C-19,239.28515625,116.28515625,239.28515625,116.28515625,239.28515625C116.28515625,239.28515625,116.28515625,252.58912754058838,116.28515625,259.7867838833481" stroke-width="3" marker-end="url(#raphael-marker-endblock33-obj6047)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                        </svg>
+                    </div>
+
+<div class="col-md-6">
+<p class="text-primary fontsize-m"> Если вам понравилась наша вакансия, то вы можете связаться с нами по любому из указанных контактов. Мы в этот же день проведем с вами собеседование, выдадим тестовое задание и незамедлительно примем решение, о котором вам сразу же сообщим. Мы не будем говорить вам что перезвоним, и заставлять вас ждать несколько дней. Мы ценим и наше и ваше время.
+После звонка или сообщения - вам ответит наш HR менеджер, который задаст вам несколько вопросов, попросит у вас резюме или ваш github, если это необходимо и поинтересуется вашим опытом. Так же вам расскажут про условия которые предлагает наша компания. Вы сможете получить ответ практически на любой интересующий вас вопрос.
+Затем в случае необходимости, вам дадут короткое тестовое задание, решение которого вы сможете отправить любым удобным вам способом.
+Мы незамедлительно просматриваем его и с вами связывается разработчик, который задаст уточняющие вопросы, и расскажет вам поподробнее о проекте и задачах.
+Если и вас и нас все устраивает - мы обговариваем детали и условия, и сразу же начинаем работать.
+</div>
+</div>
+
+                <div class="row tall-row">
+                    <div class="col-lg-12">
+                    <a name="contacts"></a>
+                        <h1>Контакты</h1>
+                        <hr>
+                    </div>
+                </div>
+
+               <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h3 class="panel-title fontsize">Номер Телефона</h3></div>
+                            <div class="panel-body">
+                                <div class="form-group has-success">
+                                    <input class="form-control input-lg fontsize"  id="inputSuccess" type="text" placeholder="+7-930-802-96-95" value="+7-930-802-96-95">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h3 class="panel-title fontsize">Email</h3></div>
+                            <div class="panel-body">
+                                <div class="form-group has-success">
+                                    <input class="form-control input-lg fontsize" id="inputSuccess" type="text" placeholder="hr@madcrush.ru"  value="hr@madcrush.ru">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h3 class="panel-title fontsize">Telegramm</h3></div>
+                            <div class="panel-body">
+                                <div class="form-group has-success">
+                                    <input class="form-control input-lg fontsize" id="inputSuccess" type="text" placeholder="@hrmadcrush"  value="@natalyfly">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h3 class="panel-title fontsize">Jabber\XMPP</h3></div>
+                            <div class="panel-body">
+                                <div class="form-group has-success">
+                                    <input class="form-control input-lg fontsize" id="inputSuccess" type="text" placeholder="madcrush@sj.ms"  value="madcrush@sj.ms">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h3 class="panel-title fontsize">Skype</h3></div>
+                            <div class="panel-body">
+                                <div class="form-group has-success">
+                                    <input class="form-control input-lg fontsize" id="inputSuccess" type="text" placeholder="hrmadcrush" value="hrmadcrush">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading"><h2 class="panel-title fontsize">Сайт</h2></div>
+                            <div class="panel-body">
+                                <div class="form-group has-success">
+                                    <input class="form-control fontsize input-lg" id="inputSuccess" type="text" placeholder="www.madcrush.ru" value="www.madcrush.ru">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+ 
+
+
+
+
+
+<div class="row tall-row">
+<div class="col-md-12">
+<p>Сделано в Медкраш. © 2017</p>
+</div>
+</div>
+</div>
+</body>
+</html>
